@@ -1,0 +1,146 @@
+@font-face { 
+    font-family: 'Reenie'; 
+    src: url('font/ReenieBeanie-Regular.ttf'); 
+} 
+
+body {
+	margin: 0;
+	padding: 0;
+    background: linear-gradient(#fb9d75, #ecc7be);
+    background-attachment: fixed;
+}
+
+
+.app h1 {
+    font-size: 55px;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Reenie';
+    color:rgb(108, 46, 11);
+    background: #ffd5c6;
+    padding: 20px;
+    border-radius: 1rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 9vh;
+}
+
+.header p {
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-family: 'Reenie';
+    color:rgb(134, 49, 0);
+}
+
+.header img {
+    float:left;
+    margin:0 5px 0 0;
+    width: 30%;
+    margin-left: -12vh;
+    margin-top: -25%;
+
+}
+
+.container {
+    margin: auto;
+}
+
+.container p {
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+    font-family: 'Reenie';
+    color:rgb(95, 36, 1);
+    margin-bottom: 5vh;
+}
+
+form {
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: hsl(15, 76%, 58%);
+    border: 4px solid hsl(18, 73%, 31%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 50%;
+
+  }
+
+input[type="file"] {
+    display: none;
+}
+
+.uploaded p {
+    font-size: 25px;
+    font-style: bold;
+    font-family: 'Reenie';
+    color:rgb(134, 49, 0);
+    margin: auto;
+    text-align: center;
+}
+
+.custom-file-upload, .button {
+    border: 2px solid hsl(18, 73%, 31%);
+    background-color: hsl(14, 62%, 87%);
+    display: inline-block;
+    padding: 16px;
+    border-radius: 1rem;
+    width: 60%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    font-style: bold;
+    font-family: 'Reenie';
+    color:rgb(134, 49, 0);
+    margin: auto;
+    margin-bottom: 2vh;
+}
+
+.custom-file-upload:hover, .button:hover {
+    background-color: hsl(15, 100%, 78%);
+
+}
+
+.doodle {
+    margin: auto;
+}
+
+.doodle p {
+    font-size: 35px;
+    font-style: bold;
+    font-family: 'Reenie';
+    color:rgb(187, 68, 0);
+    text-align: center;
+}
+
+.doodle img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.doodle button {
+    border: 2px solid hsl(18, 73%, 31%);
+    background-color: hsl(15, 76%, 58%);
+    padding: 12px;
+    border-radius: 1rem;
+    width: 20vh;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    font-style: bold;
+    font-family: 'Reenie';
+    color:hsl(14, 62%, 87%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.doodle button:hover {
+    background-color: hsl(15, 68%, 41%);
+}

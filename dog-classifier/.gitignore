@@ -1,0 +1,6 @@
+classifier_scikit.py
+cropper.py
+/data
+/server/cropped_data_10
+/server/trained_10.pth
+/server/cnn.pth
